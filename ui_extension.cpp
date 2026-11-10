@@ -98,6 +98,11 @@ const GUID uie::window_host_with_control::class_guid
 const GUID uie::splitter_window_v3::class_guid
     = {0xbd79d2fe, 0xc21b, 0x4be0, {0x91, 0x7c, 0xf4, 0xce, 0x69, 0xc0, 0x03, 0x11}};
 
+#if CUI_SDK_DWRITE_ENABLED
+const GUID uie::window_host_with_appearance_overrides::class_guid
+    = {0xafd8b526, 0x8f96, 0x423d, {0x9d, 0xc5, 0x56, 0x04, 0x7d, 0x2d, 0x35, 0x55}};
+#endif
+
 HWND uFindParentPopup(HWND wnd_child)
 {
     HWND wnd_temp = _GetParent(wnd_child);

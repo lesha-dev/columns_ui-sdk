@@ -165,6 +165,7 @@ namespace ui_extension = uie;
 #if CUI_SDK_DWRITE_ENABLED
 #include "dwrite_utils.h"
 #include "font_manager_v3.h"
+#include "window_host_with_appearance_overrides.h"
 #endif
 
 #include "font_utils.h"

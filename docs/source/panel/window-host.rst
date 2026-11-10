@@ -12,6 +12,8 @@ These interfaces are used by components that can host other panels and toolbars.
 
 .. doxygenclass:: uie::window_host_with_control
 
+.. doxygenclass:: uie::window_host_with_appearance_overrides
+
 ***********
  Factories
 ***********

@@ -33,6 +33,9 @@
     <ClInclude Include="window_host.h">
       <Filter>Panel API</Filter>
     </ClInclude>
+    <ClInclude Include="window_host_with_appearance_overrides.h">
+      <Filter>Panel API</Filter>
+    </ClInclude>
     <ClInclude Include="win32_helpers.h">
       <Filter>Helpers</Filter>
     </ClInclude>
